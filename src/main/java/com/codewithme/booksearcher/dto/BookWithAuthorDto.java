@@ -1,9 +1,8 @@
 package com.codewithme.booksearcher.dto;
 
-import com.codewithme.booksearcher.model.Author;
 import com.codewithme.booksearcher.model.Language;
 
-public record BookDto(
+public record BookWithAuthorDto(
         String title,
         AuthorDto author,
         Language language,

@@ -1,9 +1,9 @@
-package com.codewithme.booksearcher.service;
+package com.codewithme.booksearcher.service.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class DataConvert implements IConvertData {
+public class DataConvert implements IDataConvert {
     private final ObjectMapper mapper = new ObjectMapper();
 
     @Override

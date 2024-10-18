@@ -1,8 +1,11 @@
 package com.codewithme.booksearcher.dto;
 
-public record AuthorDto(
+import java.util.List;
+
+public record AuthorWithBooksDto(
         String name,
         int birthYear,
-        int deathYear
+        int deathYear,
+        List<BookDto> books
 ) {
 }

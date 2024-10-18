@@ -1,4 +1,10 @@
-package com.codewithme.booksearcher.dto.api;
+package com.codewithme.booksearcher.dto;
 
-public record BookDto() {
+import com.codewithme.booksearcher.model.Language;
+
+public record BookDto(
+        String title,
+        Language language,
+        long downloadCount
+) {
 }

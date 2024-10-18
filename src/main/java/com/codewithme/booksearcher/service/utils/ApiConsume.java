@@ -1,4 +1,4 @@
-package com.codewithme.booksearcher.service;
+package com.codewithme.booksearcher.service.utils;
 
 import java.io.IOException;
 import java.net.URI;
